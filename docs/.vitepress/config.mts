@@ -1393,6 +1393,16 @@ export default defineConfig({
                 ]
             },
             {
+                "text": "Cloud",
+                "collapsed": true,
+                "items": [
+                    {
+                        "text": "AWS",
+                        "link": "/cloud/aws.md"
+                    }
+                ]
+            },
+            {
                 "text": "Contributing & misc",
                 "collapsed": false,
                 "items": [
