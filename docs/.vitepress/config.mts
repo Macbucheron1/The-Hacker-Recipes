@@ -1393,14 +1393,45 @@ export default defineConfig({
                 ]
             },
             {
-                "text": "Cloud",
-                "collapsed": true,
-                "items": [
+              text: "Cloud",
+              collapsed: true,
+              items: [
+                {
+                  text: "🛠️ AWS",
+                  link: "/cloud/aws/index.md",
+                  collapsed: true,
+                  items: [
                     {
-                        "text": "AWS",
-                        "link": "/cloud/aws.md"
-                    }
-                ]
+                      text: "Services",
+                      collapsed: true,
+                      items: [
+                        {
+                          text: "Compute",
+                          collapsed: true,
+                          items: [
+                            { text: "EC2", link: "/cloud/aws/services/compute/ec2.md" },
+                            { text: "ECS", link: "/cloud/aws/services/compute/ecs.md" },
+                            { text: "Lambda", link: "/cloud/aws/services/compute/lambda.md" },
+                          ],
+                        },
+                        {
+                          text: "Identity & Security",
+                          collapsed: true,
+                          items: [{ text: "IAM", link: "/cloud/aws/services/identity&security/iam.md" }],
+                        },
+                        {
+                          text: "Storage",
+                          collapsed: true,
+                          items: [
+                            { text: "EBS", link: "/cloud/aws/services/storage/ebs.md" },
+                            { text: "S3", link: "/cloud/aws/services/storage/s3.md" },
+                          ],
+                        },
+                      ],
+                    },
+                  ],
+                },
+              ],
             },
             {
                 "text": "Contributing & misc",
