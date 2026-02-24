@@ -174,7 +174,7 @@ export default defineConfig({
                                                 "link": "/ad/movement/credentials/dumping/kerberos-key-list.md"
                                             },
                                             {
-                                                "text": "🛠️ Cached Kerberos tickets",
+                                                "text": "Cached Kerberos tickets",
                                                 "link": "/ad/movement/credentials/dumping/cached-kerberos-tickets.md"
                                             },
                                             {
@@ -388,6 +388,10 @@ export default defineConfig({
                                     {
                                         "text": "Kerberoast",
                                         "link": "/ad/movement/kerberos/kerberoast.md"
+                                    },
+                                    {
+                                        "text": "Timeroast",
+                                        "link": "/ad/movement/kerberos/timeroast.md"
                                     },
                                     {
                                         "text": "Delegations",
