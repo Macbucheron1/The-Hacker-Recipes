@@ -48,7 +48,7 @@ ssh -N -R $PORT $CONTROLLED_TARGET
 ```
 **SSH config**
 
-The same operations can be conducted through a pre-configured agent defined in `~/.ssh/config` instead of using command-line argument.
+The same operations can be conducted through a pre-configured agent defined in `~/.ssh/config` instead of using command-line arguments.
 ```
 Host pivot
     HostName $CONTROLLED_TARGET
